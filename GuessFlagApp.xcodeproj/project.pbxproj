@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		F798D66D27A53AD4009D003A /* GuessFlagAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798D66C27A53AD4009D003A /* GuessFlagAppApp.swift */; };
-		F798D66F27A53AD4009D003A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798D66E27A53AD4009D003A /* ContentView.swift */; };
+		F798D66F27A53AD4009D003A /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798D66E27A53AD4009D003A /* FlagView.swift */; };
 		F798D67127A53AD8009D003A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F798D67027A53AD8009D003A /* Assets.xcassets */; };
 		F798D67427A53AD8009D003A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F798D67327A53AD8009D003A /* Preview Assets.xcassets */; };
+		F7E33898282693CD007DA4FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E33893282693CD007DA4FA /* ContentView.swift */; };
+		F7E33899282693CD007DA4FA /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E33894282693CD007DA4FA /* Gradients.swift */; };
+		F7E3389A282693CD007DA4FA /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E33895282693CD007DA4FA /* Alerts.swift */; };
+		F7E3389B282693CD007DA4FA /* ButtonandImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E33896282693CD007DA4FA /* ButtonandImages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F798D66927A53AD4009D003A /* GuessFlagApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessFlagApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F798D66C27A53AD4009D003A /* GuessFlagAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlagAppApp.swift; sourceTree = "<group>"; };
-		F798D66E27A53AD4009D003A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F798D66E27A53AD4009D003A /* FlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
 		F798D67027A53AD8009D003A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F798D67327A53AD8009D003A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7E33893282693CD007DA4FA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7E33894282693CD007DA4FA /* Gradients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		F7E33895282693CD007DA4FA /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		F7E33896282693CD007DA4FA /* ButtonandImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonandImages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +40,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F77DFDEA282692D50012AB0F /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				F7E33895282693CD007DA4FA /* Alerts.swift */,
+				F7E33896282693CD007DA4FA /* ButtonandImages.swift */,
+				F7E33893282693CD007DA4FA /* ContentView.swift */,
+				F7E33894282693CD007DA4FA /* Gradients.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
 		F798D66027A53AD4009D003A = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				F798D66C27A53AD4009D003A /* GuessFlagAppApp.swift */,
-				F798D66E27A53AD4009D003A /* ContentView.swift */,
+				F798D66E27A53AD4009D003A /* FlagView.swift */,
+				F77DFDEA282692D50012AB0F /* Lessons */,
 				F798D67027A53AD8009D003A /* Assets.xcassets */,
 				F798D67227A53AD8009D003A /* Preview Content */,
 			);
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F798D66F27A53AD4009D003A /* ContentView.swift in Sources */,
+				F798D66F27A53AD4009D003A /* FlagView.swift in Sources */,
+				F7E3389B282693CD007DA4FA /* ButtonandImages.swift in Sources */,
+				F7E3389A282693CD007DA4FA /* Alerts.swift in Sources */,
 				F798D66D27A53AD4009D003A /* GuessFlagAppApp.swift in Sources */,
+				F7E33898282693CD007DA4FA /* ContentView.swift in Sources */,
+				F7E33899282693CD007DA4FA /* Gradients.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

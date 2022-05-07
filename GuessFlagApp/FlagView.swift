@@ -22,7 +22,7 @@ struct FlagImage : View {
 
 
 
-struct ContentView: View {
+struct FlagView: View {
  
     @State private var animationAmount = 0.0
     @State private var userChoice:Int?
@@ -80,6 +80,7 @@ struct ContentView: View {
                                      .clipShape(Capsule())
                                      .shadow(radius: 10)
                                      .rotation3DEffect(.degrees(userChoice == number ? animationAmount : 0), axis: (x: 0, y: 1, z: 0))
+
 
                              }
 
@@ -158,9 +159,9 @@ struct ContentView: View {
     
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct FlagView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FlagView()
     }
 }
 
